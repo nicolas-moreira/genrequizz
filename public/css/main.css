@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+}
+
+.correct {
+    background-color: #ffffff;
+    animation-name: correctColor;
+    animation-duration: 1s;
+}
+
+.incorrect {
+    background-color: #ffffff;
+    animation-name: incorrectColor;
+    animation-duration: 1s;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+@keyframes correctColor {
+    0% {
+        background-color: #ffffff;
+      }
+      50% {
+        background-color: green;
+      }
+      100 {
+        background-color: #ffffff;
+      }
+}
+
+@keyframes incorrectColor {
+    0% {
+      background-color: #ffffff;
+    }
+    50% {
+      background-color: red;
+    }
+    100 {
+      background-color: #ffffff;
+    }
+  }
+
+.name {
+    text-align: center;
+}
+
+.finalText {
+    text-align: center;
+}
+
+.mainContainer {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  border: solid #8A8A8A 1px;
+  border-radius: 10px;
+  background-color: #edf1ff;
+}
+
