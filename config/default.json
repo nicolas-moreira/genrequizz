@@ -1,0 +1,8 @@
+{
+    "mongodb":{
+        "connectionString": ""
+    },
+    "genderAPI": {
+        "API_KEY": ""
+    }
+}

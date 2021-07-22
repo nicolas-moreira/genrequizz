@@ -7,17 +7,17 @@
     "doc": "doc"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "populateDB": "node populateDB.js"
   },
   "author": "Nicolas Moreira",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "config": "^3.3.6",
     "express": "^4.17.1",
     "mongodb": "^4.0.1",
     "mongoose": "^5.13.3",
     "pug": "^3.0.2",
-    "qs": "^6.10.1",
-    "request": "^2.81.0"
   }
 }
