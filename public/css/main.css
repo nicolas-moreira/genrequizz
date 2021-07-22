@@ -29,29 +29,32 @@ body {
   padding-bottom: 40px;
 }
 
+
 @keyframes correctColor {
-    0% {
-        background-color: #ffffff;
-      }
-      50% {
-        background-color: green;
-      }
-      100 {
-        background-color: #ffffff;
-      }
+  0% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: green;
+  }
+  100%{
+    background-color: #ffffff;
+  }
 }
 
+
 @keyframes incorrectColor {
-    0% {
-      background-color: #ffffff;
-    }
-    50% {
-      background-color: red;
-    }
-    100 {
-      background-color: #ffffff;
-    }
+  0% {
+    background-color: #ffffff;
   }
+  50% {
+    background-color: red;
+  }
+  100%{
+    background-color: #ffffff;
+  }
+}
+
 
 .name {
     text-align: center;
