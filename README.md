@@ -79,10 +79,14 @@ Pour pouvoir utiliser correctement ce projet sur votre machine , suivez ces etap
         "connectionString": "Entrez le lien de l'etape 5 ici"
     }
    ```
-
+7. Lancez la commande suivante pour ajouter les prenoms a votre collection
+  ```sh
+  npm populateDB
+  ```
+  
 ## Usage
 
-* npm
+* Console
   ```sh
   npm start
   ```
