@@ -64,7 +64,7 @@
     }
    ```
 
-## Installation mongodb
+### Installation mongodb
 
 Pour pouvoir utiliser correctement ce projet sur votre machine , suivez ces etapes **IMPORTANT**.
 
@@ -90,7 +90,7 @@ Pour pouvoir utiliser correctement ce projet sur votre machine , suivez ces etap
   ```sh
   npm start
   ```
-
+## Fonctionnement technique
 
 <!-- LICENSE -->
 ## License
