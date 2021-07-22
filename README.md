@@ -87,6 +87,11 @@ npm test
 ```sh
 npm start
 ```
+* Ajouter des données dans la base de donnés 
+```sh
+npm test
+```
+
 ## Fonctionnement technique
 
 ### Organisation
@@ -146,7 +151,12 @@ Une bonne façon de le faire serait de sauvegarder le nombre de points en mémoi
 Il est très facile de tricher en modifiant ces points, une bonne amélioration serait de vérifier si la réponse est correcte directement depuis le serveur puis de renvoyer une réponse au client. Celle-ci comporte une réponse positive ou négative.
 
 Un plus serait de stocker les points du joueur dans une nouvelle collection de données (mongodb) pour éviter toute triche.
+
+#### Ajouter de nouveaux prénoms 
+Une nouvelle page permettant d'importer une liste de prénoms  
+
 ## License
+
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
