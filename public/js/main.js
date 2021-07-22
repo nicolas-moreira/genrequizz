@@ -21,7 +21,7 @@ var body = document.getElementsByTagName('body')[0];
 
             var replaceData = (serverData) => {
                 data = serverData;
-                nameHtml.textContent = `Le prenom ${data.firstName} est :`
+                nameHtml.textContent = `Le prénom ${data.firstName} est :`
             };
 
             var changeScore = () => {
@@ -60,7 +60,7 @@ var body = document.getElementsByTagName('body')[0];
                      
 
                 }else if(points === 20){
-                    finalText.textContent = "Bravo vous avez gagné";
+                    finalText.textContent = "Bravo, vous avez gagné";
                     menu.style.display = "";
                     play.style.display = "none";
                 }
