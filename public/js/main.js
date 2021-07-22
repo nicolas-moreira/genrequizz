@@ -31,13 +31,14 @@ var body = document.getElementsByTagName('body')[0];
             var newName = () => {
                 fetchData().then(dat => replaceData(dat)); 
             }
+            
             function init(){
                 points = 10;
                 changeScore();
                 newName();
             };
             
-            var checkAnwser = (input) => {
+            var checkAnswer = (input) => {
                 if(input == data.gender){
                     points += 1;
                     body.classList.add('correct');
@@ -80,8 +81,8 @@ var body = document.getElementsByTagName('body')[0];
             }
 
             startBtn.onclick = function() {startGame()};
-            maleBtn.onclick = function(){checkAnwser("male"); checkGameStatus()};
-            femaleBtn.onclick = function(){checkAnwser("female"); checkGameStatus()};
+            maleBtn.onclick = function(){checkAnswer("male"); checkGameStatus()};
+            femaleBtn.onclick = function(){checkAnswer("female"); checkGameStatus()};
             replayBtn.onclick = function(){replay()};
 
             init();
