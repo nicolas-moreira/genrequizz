@@ -1,9 +1,9 @@
 {
     "mongodb":{
-        "connectionString": "mongodb+srv://admin:ola123456@cluster0.ba09y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        "connectionString": ""
     },
     "genderAPI": {
-        "API_KEY": "PQDy2C8vuwbyC4FPBXgVUX5wG7gE7zBW6UuE"
+        "API_KEY": ""
     },
     "express": {
         "port" : 3000
