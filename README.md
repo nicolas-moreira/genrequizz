@@ -78,7 +78,7 @@ Pour pouvoir utiliser correctement ce projet sur votre machine, suivez ces etape
 ```
 7. Lancez la commande suivante pour ajouter les prénoms a votre collection.
 ```sh
-npm populateDB
+npm test
 ```
 
 ## Usage
