@@ -61,7 +61,7 @@ router.post("/", async (req,res,next) => {
                     }
                 }
               });
-              res.status(200).render("home", payload);
+              return res.status(200).render("home", payload);
         }
 
         res.status(200).render("import", payload);
