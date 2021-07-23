@@ -141,19 +141,20 @@ La fonction newName fait appel a la fonction fetchData() qui vas faire un appel 
 
 ## Points a améliorer
 
-#### Sauvegarde de l'état de la partie
+#### [ ] Sauvegarde de l'état de la partie
 
 Il serait bien d'ajouter un système de sauvegarde. Avec le localstorage on peut stocker des données sur le navigateur du client.
 Une bonne façon de le faire serait de sauvegarder le nombre de points en mémoire a chaque actualisation de le variable point.
 
-#### Vérifier la réponse en backend
+#### [ ] Vérifier la réponse en backend
 
 Il est très facile de tricher en modifiant ces points, une bonne amélioration serait de vérifier si la réponse est correcte directement depuis le serveur puis de renvoyer une réponse au client. Celle-ci comporte une réponse positive ou négative.
 
 Un plus serait de stocker les points du joueur dans une nouvelle collection de données (mongodb) pour éviter toute triche.
 
-#### Ajouter de nouveaux prénoms 
-Une nouvelle page permettant d'importer une liste de prénoms  
+####  [x] Ajouter de nouveaux prénoms 
+Une nouvelle page permettant d'importer une liste de prénoms
+
 
 ## License
 
