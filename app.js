@@ -12,8 +12,10 @@ app.set('views','views');
 app.use(express.static(path.join(__dirname, "public")));
 
 const newNameRoute = require('./routes/newName');
+const importRoute = require('./routes/importRoute');
 
 app.use("/newName", newNameRoute);
+app.use("/importer", importRoute);
 
 app.get("/", (req,res,next) => {
     res.status(200).render("home");

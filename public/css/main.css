@@ -74,3 +74,24 @@ body {
   background-color: #edf1ff;
 }
 
+.import {
+  padding-left: 20px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  color: black;
+  display: inline-block;
+}
+
+a {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+  color: green;
+}
+
+.link {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: -10px; 
+}
