@@ -14,7 +14,7 @@ function addToDatabase() {
             if(/\S/.test(data[i]) && i < 300){
                 var prenom = data[i].split(" ")[0];
                 if(prenom != null && prenom != ''){
-                    Name.create({firstName: prenom.toString()}).then((name) => console.log(name)).catch((err) => console.log(err));
+                    Name.create({firstName: prenom.toString()}).catch((err) => console.log(err));
                 }
             }
         }

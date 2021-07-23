@@ -56,7 +56,7 @@ router.post("/", async (req,res,next) => {
                         var prenom = names[i].split(" ")[0];
                         if(prenom != null && prenom != ''){
                             Name.create({firstName: prenom.toString()})
-                            .then((name) => console.log(name)).catch((err) => console.log(err));
+                            .catch((err) => console.log(err));
                         }
                     }
                 }
