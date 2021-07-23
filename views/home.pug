@@ -10,14 +10,17 @@ html(lang="en")
     body
         form.mainContainer(action="")
             .start#start(style="display:")
+                 a(style=`color: ${color}`) #{message}
                  h1.finalText.mb-3.font-weight-normal Genre quizz
                  h3.finalText.mb-3.font-weight-normal Trouve le bon genre pour chacun des prénoms.
-                 input.btn.btn-lg.btn-primary.btn-block#startBtn(type="button", value="Jouer")
+                 input.btn.btn-lg.btn-success.btn-block#startBtn(type="button", value="Jouer")
+                 a.link(href="/importer" style="text-decoration:none")
+                    input.btn-sm.btn-primary(type="button"  value="Ajouter de nouveaux prénoms")
             .play#play(style="display:none")
                 .points.col-sm-12
                     h4.mb-3.font-weight-normal#pts
                 .name.col-sm-12
-                    h1.mb-3.font-weight-normal#name 
+                    h1.mb-3.font-weight-normal#name chargement...
                 .buttons.col-sm-12
                     input.btn.btn-md.btn-primary.btn-block#male(type="button", value="Masculin")
                     input.btn.btn-md.btn-primary.btn-block#female(type="button", value="Feminin")
